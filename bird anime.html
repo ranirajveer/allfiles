@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <title>bird-animation</title>
+        <link href="css/index.css" type="text/css" rel="stylesheet"/>
+        <style>
+            body{
+                background-color:aqua;
+                top:0%; 
+            }
+                .bird{
+                    background-color:black;
+                    top:300px;
+                    height:100px;
+                    width:100px;
+                    position:absolute;
+                    border-radius: 100px 100px 0px 0px;
+                    margin-left: 600px;
+                
+                    animation:fly 2s infinite;
+                }
+                 @keyframes fly {
+                  50% {transform:translateY(50px);}
+                 } 
+
+                    
+                 
+
+
+            
+                 .body{
+                    background-color: brown;
+                    height:100px;
+                    width:200px;
+                    margin-left:500px;
+                    top:330px;
+                    position:relative;
+                    border-radius: 0px 0px 200px 200px;
+                    animation: fly 2s infinite;
+                 }
+                  @keyframes fly {  
+                  50% {transform:translateY(40px);}
+                 } 
+
+
+
+                 .eye{
+                    background-color:white;
+                    width:20px;
+                    height:20px;
+                    position: absolute;
+                    /* top:800px; */
+                    margin-left:660px;
+                    /* bottom:800px; */
+                    margin-top:160px;
+                    border-radius:800px;
+                    animation: fly 2s infinite;
+                 }
+                  @keyframes fly {  
+                  50% {transform:translateY(40px);}
+                 } 
+
+                 
+                 .eyeball{
+                    background-color:black;
+                    position:relative;
+                    width:10px;
+                    height:10px;
+                    border-radius: 15px;
+                    margin-left: 665;
+                    margin-top:165px;
+                    animation: fly 2s infinite;
+                 }
+                  @keyframes fly {  
+                  50% {transform:translateY(40px);}
+                 } 
+                 
+                 .beaker{
+                    background-color:white;
+                    width:20px;
+                    height:20px;
+                    position:absolute;
+                    border-radius:0px 5px 150px 10px;
+                    margin-left:700px;
+                    bottom:400px;
+                    rotate:50%;
+                    animation: fly 2s infinite;
+                 }
+                  @keyframes fly {  
+                  50% {transform:translateY(40px);}
+                 } 
+
+                 
+                 .feather{
+                    background-color:white;
+                    WIDTH:110PX;
+                    HEIGHT:60PX;
+                    position: absolute;
+                    border-radius: 0px 0px 100px 100px;
+                    margin-left:500px;
+                
+                     top:400px;
+                 
+                  animation: fly 2s infinite;
+                 }
+                  @keyframes fly {  
+                  50% {transform:translateY(40px);}
+                 }  
+                 .infeather{
+                    background-color:black;
+                    width:90px;
+                    height:50px;
+                    position: absolute;
+                    border-radius: 0px 0px 80px 80px;
+                    margin-left: 510px;
+                    top: 400px;
+                    
+                     animation:flap  1s infinite;  
+                     transform-origin: right;
+                     animation: fly 2s infinite;
+                  }
+                  @keyframes fly {  
+                  50% {transform:translateY(40px);}
+                 }   
+                  
+
+                  
+
+
+                 
+
+
+
+        </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+    <body>
+        <h1 style="margin-left: 550PX;">Bird Animation</h1>
+        <div class="bird"></div>
+        <div class="body"></div>
+        <div class="eye"></div>
+        <div class="eyeball"></div>
+        <div class="beaker"></div>
+        <div class="feather"></div>
+        <div class="infeather"></div>
+
+         
+    </body>
+</html>

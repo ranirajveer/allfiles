@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    font-size: 30px;
+    font-style:calc();
+}
+h1{
+    font-style:oblique;
+}
+h4{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input[type="text"]{
+    display: block;
+  width: 20%;
+  margin: 1em auto;
+  height: 1em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  color: white;
+  border-radius: 4px;
+  min-width: 30;
+  font-style:calc();
+  
+}
+
+button{
+    background-color:crimson;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 6px;
+  font-style:calc();
+}
+#tasklist{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+input[type="text"]{
+    font-size: 18px;
+}
+
